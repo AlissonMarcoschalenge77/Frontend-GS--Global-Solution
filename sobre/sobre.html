@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conheça mais sobre o projeto SmartAssist e seus objetivos">
+  <title>Sobre - SmartAssist</title>
+  <link rel="stylesheet" href="/css/visual.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/Home/home.html">SmartAssist</a>
+      <button id="btn-hamburger" class="hamburger" aria-expanded="false" aria-label="Menu">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+      <nav id="main-nav" class="nav" aria-hidden="true">
+        <ul class="nav-list">
+          <li><a href="/Home/home.html">Início</a></li>
+          <li><a href="/sobre/sobre.html" aria-current="page">Sobre</a></li>
+          <li><a href="/SolucaoIA/solucaoia.html">IA Conversacional</a></li>
+          <li><a href="/SolucaoRec/solucaorec.html">Recursos</a></li>
+          <li><a href="/Faq/faq.html">FAQ</a></li>
+          <li><a href="/integrantes/integrantes.html">Integrantes</a></li>
+          <li><a href="#" id="open-contact" class="btn-primary">Contato</a></li>
+        </ul>
+      </nav>
+      <button id="btn-theme" class="btn-icon" aria-label="Alternar tema">🌓</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Sobre o SmartAssist</h1>
+    
+    <section>
+      <h2>O Projeto</h2>
+      <p>O <strong>SmartAssist</strong> é um projeto de Front-End Design Engineering que tem como objetivo criar um assistente virtual capaz de auxiliar estudantes e profissionais da área de tecnologia. Ele integra recursos de inteligência artificial, design responsivo e boas práticas de desenvolvimento web.</p>
+    </section>
+
+    <section>
+      <h2>Propósito e Impacto</h2>
+      <p>O propósito do SmartAssist é democratizar o acesso a orientações rápidas sobre carreira e aprendizado em programação, promovendo a educação tecnológica e contribuindo com os Objetivos de Desenvolvimento Sustentável (ODS), especialmente o <strong>ODS 4 — Educação de Qualidade</strong>.</p>
+      <p>Acreditamos que o conhecimento em tecnologia deve ser acessível a todos, independentemente de horário ou localização. Por isso, desenvolvemos uma solução que oferece suporte contínuo e personalizado.</p>
+    </section>
+
+    <section>
+      <h2>Problema Abordado</h2>
+      <p>Muitos estudantes e iniciantes em programação enfrentam dificuldades para:</p>
+      <ul>
+        <li>Obter respostas rápidas para dúvidas técnicas específicas</li>
+        <li>Encontrar orientação sobre carreira e próximos passos no aprendizado</li>
+        <li>Acessar recursos confiáveis e atualizados sobre tecnologias</li>
+        <li>Ter suporte disponível fora do horário comercial ou acadêmico</li>
+      </ul>
+      <p>O SmartAssist resolve esses desafios oferecendo um assistente inteligente disponível 24/7.</p>
+    </section>
+
+    <section>
+      <h2>Tecnologias Utilizadas</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>HTML5</h3>
+          <p>Estrutura semântica e acessível para todas as páginas do projeto</p>
+        </article>
+        <article class="card">
+          <h3>CSS3</h3>
+          <p>Design responsivo e modular com suporte a temas claro e escuro</p>
+        </article>
+        <article class="card">
+          <h3>JavaScript</h3>
+          <p>Interatividade, validação de formulários e controle de componentes</p>
+        </article>
+        <article class="card">
+          <h3>IBM Watson Assistant</h3>
+          <p>Chatbot inteligente com processamento de linguagem natural</p>
+        </article>
+        <article class="card">
+          <h3>GitHub</h3>
+          <p>Versionamento de código e colaboração em equipe</p>
+        </article>
+        <article class="card">
+          <h3>Web Standards</h3>
+          <p>Seguindo as melhores práticas W3C e princípios de acessibilidade</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Diferenciais</h2>
+      <ul>
+        <li><strong>Interface Intuitiva:</strong> Design limpo e fácil de navegar</li>
+        <li><strong>Responsivo:</strong> Funciona perfeitamente em mobile, tablet e desktop</li>
+        <li><strong>Acessível:</strong> Seguindo diretrizes WCAG para inclusão</li>
+        <li><strong>Performance:</strong> Carregamento rápido e otimizado</li>
+        <li><strong>Tema Personalizável:</strong> Modos claro e escuro para conforto visual</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2025 SmartAssist - Desenvolvido por Alisson Kawan e Marcos Vinicius | FIAP 1TDSPS</p>
+    </div>
+  </footer>
+
+  <!-- Modal de Contato -->
+  <div id="contact-modal" class="modal" role="dialog" aria-hidden="true" aria-labelledby="modal-title">
+    <div class="modal-content">
+      <button id="close-modal" class="modal-close" aria-label="Fechar">&times;</button>
+      <h2 id="modal-title">Entre em Contato</h2>
+      <form id="contact-form">
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Mensagem</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <div class="form-actions">
+          <button type="button" id="cancel-modal" class="btn-outline">Cancelar</button>
+          <button type="submit" class="btn-primary">Enviar</button>
+        </div>
+        <div id="form-feedback" class="form-feedback" role="alert"></div>
+      </form>
+    </div>
+  </div>
+
+  <!--Watson Assistant chatbot script -->
+  <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "ab5a9840-e854-472c-91a0-5560e77c867e", // The ID of this integration.
+    region: "us-south", // The region your integration is hosted in.
+    serviceInstanceID: "e2dee508-776d-4b6f-85a9-82df055e52a9", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+  </script>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>

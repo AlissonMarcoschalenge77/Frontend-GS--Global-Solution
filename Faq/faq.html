@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Perguntas frequentes sobre o SmartAssist">
+  <title>FAQ - SmartAssist</title>
+  <link rel="stylesheet" href="/css/visual.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/Home/home.html">SmartAssist</a>
+      <button id="btn-hamburger" class="hamburger" aria-expanded="false" aria-label="Menu">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+      <nav id="main-nav" class="nav" aria-hidden="true">
+        <ul class="nav-list">
+          <li><a href="/Home/home.html" aria-current="page">Início</a></li>
+          <li><a href="/sobre/sobre.html">Sobre</a></li>
+          <li><a href="/SolucaoIA/solucaoia.html">IA Conversacional</a></li>
+          <li><a href="/SolucaoRec/solucaorec.html">Recursos</a></li>
+          <li><a href="/Faq/faq.html">FAQ</a></li>
+          <li><a href="/integrantes/integrantes.html">Integrantes</a></li>
+          <li><a href="#" id="open-contact" class="btn-primary">Contato</a></li>
+        </ul>
+      </nav>
+      <button id="btn-theme" class="btn-icon" aria-label="Alternar tema">🌓</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Perguntas Frequentes</h1>
+    <p>Encontre respostas para as dúvidas mais comuns sobre o SmartAssist:</p>
+
+    <div class="faq-list">
+      <article class="faq-item">
+        <h3>O que é o SmartAssist?</h3>
+        <p>O SmartAssist é um assistente virtual inteligente desenvolvido para auxiliar estudantes e profissionais da área de tecnologia. Ele oferece orientações sobre programação, carreira, recursos de aprendizado e responde dúvidas técnicas utilizando inteligência artificial.</p>
+      </article>
+
+      <article class="faq-item">
+        <h3>Como funciona o assistente virtual?</h3>
+        <p>O SmartAssist utiliza IBM Watson Assistant para processar linguagem natural e compreender suas perguntas. Você pode conversar de forma natural sobre tópicos de programação, tecnologias específicas, dúvidas de código ou orientação de carreira, e receberá respostas contextualizadas e úteis.</p>
+      </article>
+
+      <article class="faq-item">
+        <h3>O SmartAssist é gratuito?</h3>
+        <p>Sim! O SmartAssist é um projeto acadêmico desenvolvido para democratizar o acesso à educação tecnológica. Todos os recursos são disponibilizados gratuitamente para estudantes e profissionais interessados.</p>
+      </article>
+
+      <article class="faq-item">
+        <h3>Quais tipos de perguntas posso fazer?</h3>
+        <p>Você pode perguntar sobre conceitos de programação, linguagens específicas (JavaScript, Python, Java, etc.), frameworks e bibliotecas, boas práticas de desenvolvimento, orientação de carreira em tecnologia, como começar a programar, e muito mais.</p>
+      </article>
+
+      <article class="faq-item">
+        <h3>O SmartAssist funciona 24 horas?</h3>
+        <p>Sim! Como é um assistente virtual baseado em IA, o SmartAssist está disponível 24 horas por dia, 7 dias por semana. Você pode acessar sempre que precisar de ajuda, independentemente do horário.</p>
+      </article>
+
+      <article class="faq-item">
+        <h3>Preciso criar uma conta para usar?</h3>
+        <p>Na versão atual do projeto, não é necessário criar conta. Você pode interagir diretamente com o assistente através da interface web. Em futuras versões, poderemos implementar recursos de personalização que exigirão cadastro.</p>
+      </article>
+
+      <article class="faq-item">
+        <h3>O site funciona em dispositivos móveis?</h3>
+        <p>Sim! O SmartAssist foi desenvolvido seguindo princípios de design responsivo. O site se adapta perfeitamente a smartphones, tablets e desktops, garantindo uma experiência otimizada em qualquer dispositivo.</p>
+      </article>
+
+      <article class="faq-item">
+        <h3>Como posso contribuir com o projeto?</h3>
+        <p>O SmartAssist é um projeto em constante evolução. Você pode contribuir enviando sugestões, reportando bugs ou melhorias através do nosso formulário de contato. O código-fonte também está disponível no GitHub para colaborações.</p>
+      </article>
+
+      <article class="faq-item">
+        <h3>Quais tecnologias foram usadas no desenvolvimento?</h3>
+        <p>O projeto utiliza HTML5 semântico, CSS3 com design responsivo e temas personalizáveis, JavaScript para interatividade, IBM Watson Assistant para a IA conversacional, e GitHub para versionamento do código.</p>
+      </article>
+
+      <article class="faq-item">
+        <h3>Como entro em contato com a equipe?</h3>
+        <p>Você pode entrar em contato através do formulário de contato disponível no menu principal, ou conectar-se diretamente com os desenvolvedores pelo LinkedIn e GitHub listados na página de Integrantes.</p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2025 SmartAssist - Desenvolvido por Alisson Kawan e Marcos Vinicius | FIAP 1TDSPS</p>
+    </div>
+  </footer>
+
+  <!-- Modal de Contato -->
+  <div id="contact-modal" class="modal" role="dialog" aria-hidden="true" aria-labelledby="modal-title">
+    <div class="modal-content">
+      <button id="close-modal" class="modal-close" aria-label="Fechar">&times;</button>
+      <h2 id="modal-title">Entre em Contato</h2>
+      <form id="contact-form">
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Mensagem</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <div class="form-actions">
+          <button type="button" id="cancel-modal" class="btn-outline">Cancelar</button>
+          <button type="submit" class="btn-primary">Enviar</button>
+        </div>
+        <div id="form-feedback" class="form-feedback" role="alert"></div>
+      </form>
+    </div>
+  </div>
+
+  <!--Watson Assistant chatbot script -->
+  <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "ab5a9840-e854-472c-91a0-5560e77c867e", // The ID of this integration.
+    region: "us-south", // The region your integration is hosted in.
+    serviceInstanceID: "e2dee508-776d-4b6f-85a9-82df055e52a9", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+  </script>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>

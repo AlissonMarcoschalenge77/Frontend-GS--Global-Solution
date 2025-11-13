@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartAssist — Integrantes</title>
+  <link rel="stylesheet" href="/css/visual.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/Home/home.html">SmartAssist</a>
+      <button class="hamburger" aria-label="Menu">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+      <nav class="nav" aria-hidden="true">
+        <ul class="nav-list">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="solucao-ia.html">IA Conversacional</a></li>
+          <li><a href="solucao-recursos.html">Recursos</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="integrantes.html">Integrantes</a></li>
+          <li><a href="#" data-modal="modal-contato" class="btn-primary">Contato</a></li>
+        </ul>
+      </nav>
+      <button class="btn-icon" aria-label="Alternar tema">🌙</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Equipe SmartAssist</h1>
+    <p class="lead">Conheça os profissionais responsáveis pelo desenvolvimento do projeto SmartAssist.</p>
+
+    <div class="team-grid">
+      <div class="team-member">
+        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1760404479361-49UnUa3paCl2s9Zlh6QkY4vPGA8pPg.png" alt="Alisson Kawan">
+        <strong>Alisson Kawan</strong>
+        <p>RM: 567598</p>
+        <p>Turma: 1TDSPS</p>
+        <p>
+          <a href="https://www.linkedin.com/in/alisson-kawan-evangelista-silva-5a3355219/" target="_blank" rel="noopener">LinkedIn</a> | 
+          <a href="https://github.com/AlissonKawan" target="_blank" rel="noopener">GitHub</a>
+        </p>
+      </div>
+
+  
+      <div class="team-member">
+        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1747058358535-8GOy1Om7qfgxKsMfkJ6t3WKG17xMIg.jpg" alt="Marcos Vinicius">
+        <strong>Marcos Vinicius</strong>
+        <p>RM: 560824</p>
+        <p>Turma: 1TDSPO</p>
+        <p>
+          <a href="https://www.linkedin.com/in/marcos-vinicius-de-jesus-almeida/" target="_blank" rel="noopener">LinkedIn</a> | 
+          <a href="#" target="_blank" rel="noopener">GitHub</a>
+        </p>
+      </div>
+    </div>
+
+    <div style="margin-top: 3rem; padding: 2rem; background: var(--bg-alt); border-radius: var(--radius); text-align: center;">
+      <h2>Repositório do Projeto</h2>
+      <p>Acesse o código-fonte completo do SmartAssist no GitHub:</p>
+      <a href="https://github.com/AlissonMarcoschalenge77/Frontend-GS--Global-Solution" target="_blank" rel="noopener" class="btn-primary" style="margin-top: 1rem;">
+        Ver Repositório no GitHub
+      </a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2025 SmartAssist. Todos os direitos reservados. Educação e Tecnologia para todos.</p>
+    </div>
+  </footer>
+
+  <div id="modal-contato" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Fechar">&times;</button>
+      <h2>Entre em Contato</h2>
+      <form id="contact-form">
+        <label for="name">Nome</label>
+        <input type="text" id="name" required>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" required>
+        <label for="message">Mensagem</label>
+        <textarea id="message" rows="4" required></textarea>
+        <div class="form-actions">
+          <button type="submit" class="btn-primary">Enviar</button>
+        </div>
+        <div class="form-feedback" style="display:none;"></div>
+      </form>
+    </div>
+  </div>
+
+  <script src="/js/script.js"></script>
+  
+  <!-- Watson Assistant -->
+  <script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "ab5a9840-e854-472c-91a0-5560e77c867e",
+      region: "us-south",
+      serviceInstanceID: "e2dee508-776d-4b6f-85a9-82df055e52a9",
+      onLoad: async (instance) => { await instance.render(); }
+    };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
+  </script>
+</body>
+</html>
