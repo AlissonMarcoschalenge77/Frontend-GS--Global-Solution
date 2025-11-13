@@ -89,14 +89,13 @@ smartassist/
 ## Integrantes
 
 ### Alisson Kawan Evangelista Silva
-- **RM:** 559839
+- **RM:** 567598
 - **Turma:** 1TDSPS
-- **GitHub:** [AlissonMarcoschalenge77](https://github.com/AlissonMarcoschalenge77)
-- **LinkedIn:** [Alisson Kawan](https://github.com/AlissonKawan)
+- **GitHub:** [AlissonMarcoschalenge77](https://github.com/AlissonKawan)
 - **LinkedIn:** [Alisson Kawan](https://www.linkedin.com/in/alisson-kawan-evangelista-silva-5a3355219/)
 
 ### Marcos Vinicius de Jesus Almeida
-- **RM:** 559096
+- **RM:** 567214
 - **Turma:** 1TDSPS
 - **GitHub:** [marcosviniciusdejesus](https://github.com/marcosviniciusdejesus)
 - **LinkedIn:** [Marcos Vinicius](https://www.linkedin.com/in/marcos-vinicius-de-jesus-almeida/)
