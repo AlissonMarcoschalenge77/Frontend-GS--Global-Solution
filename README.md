@@ -97,7 +97,7 @@ smartassist/
 ### Marcos Vinicius de Jesus Almeida
 - **RM:** 567214
 - **Turma:** 1TDSPS
-- **GitHub:** [marcosviniciusdejesus](https://github.com/marcosviniciusdejesus)
+- **GitHub:** [marcosviniciusdejesus](https://github.com/marcos-thebest)
 - **LinkedIn:** [Marcos Vinicius](https://www.linkedin.com/in/marcos-vinicius-de-jesus-almeida/)
 
 ---
