@@ -862,6 +862,18 @@ textarea:focus {
   }
 }
 
+/* Prevent nav hover transform on desktop to avoid invasive behavior */
+@media (min-width: 721px) {
+  .nav-list a:hover {
+    background: rgba(214, 69, 74, 0.08);
+    transform: none;
+  }
+
+  .nav-list a::before {
+    display: none;
+  }
+}
+
 /* Accessibility */
 a:focus-visible,
 button:focus-visible,
