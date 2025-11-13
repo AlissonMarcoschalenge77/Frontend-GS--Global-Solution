@@ -129,7 +129,7 @@ npx http-server
 
 ## Link do Repositório
 
-**GitHub:** [github.com/AlissonMarcoschalenge77/Frontend-GS-Global-Solution](https://github.com/AlissonMarcoschalenge77)
+**GitHub:** [github.com/AlissonMarcoschalenge77/Frontend-GS-Global-Solution](https://github.com/AlissonMarcoschalenge77/Frontend-GS--Global-Solution)
 
 ---
 
