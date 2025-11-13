@@ -127,7 +127,7 @@ npx http-server
 
 ---
 
-## Link do Repositório
+## Link do Repositório Do Projeto
 
 **GitHub:** [github.com/AlissonMarcoschalenge77/Frontend-GS-Global-Solution](https://github.com/AlissonMarcoschalenge77/Frontend-GS--Global-Solution)
 
