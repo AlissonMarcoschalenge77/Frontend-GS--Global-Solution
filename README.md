@@ -43,12 +43,12 @@ smartassist/
 │   └── visual.css          # Estilos globais, responsividade e temas
 ├── js/
 │   └── script.js           # Menu hambúrguer, modal, validação e tema
-├── index.html              # Página inicial
+├── home.html              # Página inicial
 ├── sobre.html              # Sobre o projeto
 ├── integrantes.html        # Equipe com fotos, RM e links
 ├── faq.html                # Perguntas frequentes
-├── solucao-ia.html         # Solução de IA conversacional
-├── solucao-recursos.html   # Biblioteca de recursos
+├── solucaoia.html         # Solução de IA conversacional
+├── solucaorec.html   # Biblioteca de recursos
 └── README.md               # Documentação do projeto
 \`\`\`
 
@@ -57,15 +57,15 @@ smartassist/
 ## Páginas do Site
 
 ### Obrigatórias
-1. **index.html** - Página inicial com apresentação do projeto
+1. **home.html** - Página inicial com apresentação do projeto
 2. **sobre.html** - Descrição detalhada do projeto e tecnologias
 3. **integrantes.html** - Equipe com fotos, RM, turma, LinkedIn e GitHub
 4. **faq.html** - Perguntas frequentes sobre o SmartAssist
 5. **Modal de Contato** - Formulário acessível via menu
 
 ### Páginas da Solução
-6. **solucao-ia.html** - Detalhes sobre o assistente de IA conversacional
-7. **solucao-recursos.html** - Biblioteca de recursos e materiais de aprendizado
+6. **solucaoia.html** - Detalhes sobre o assistente de IA conversacional
+7. **solucaorec.html** - Biblioteca de recursos e materiais de aprendizado
 
 ---
 
@@ -130,16 +130,16 @@ npx http-server
 
 ## Link do Repositório
 
-**GitHub:** [github.com/Alissonkawan/smartassist](https://github.com/AlissonMarcoschalenge77)
+**GitHub:** [github.com/AlissonMarcoschalenge77/Frontend-GS-Global-Solution](https://github.com/AlissonMarcoschalenge77)
 
 ---
 
 ## Licença
 
-Este projeto foi desenvolvido para fins acadêmicos como parte da disciplina de Front-End Design Engineering da FIAP.
+Este projeto foi desenvolvido por Alisson Kawan para fins acadêmicos como parte da disciplina de Front-End Design Engineering da FIAP.
 
 ---
 
 ## Contato
 
-Para dúvidas ou sugestões, entre em contato através do formulário no site ou pelos perfis do LinkedIn dos desenvolvedores.
+Para dúvidas ou sugestões, entre em contato através do formulário no site ou pelos perfis do LinkedIn de Alisson Kawan.
